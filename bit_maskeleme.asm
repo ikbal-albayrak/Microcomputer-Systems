@@ -1,0 +1,6 @@
+LDAA #$55     ; A akümülatörüne test değeri olarak 55h yükler [cite: 27]
+STAA $0050    ; Bu değeri 0050h adresine yazar [cite: 28]
+CLRA          ; A akümülatörünü temizler (0 yapar) [cite: 29]
+LDAB $0050    ; B akümülatörüne 0050h adresindeki veriyi yükler [cite: 30]
+ANDB #$0F     ; B'deki değerin sadece düşük 4 bitini korur (maskeleme) [cite: 31]
+STAB $0060    ; Maskelenmiş sonucu 0060h adresine kaydeder [cite: 32]
