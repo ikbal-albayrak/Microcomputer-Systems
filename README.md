@@ -35,8 +35,8 @@ Görsel: [Resim2](./screenshots/Resim2.png)
 SORU 3 -)Bit Maskeleme (Low Nibble Isolation)
 Bir verinin sadece düşük ağırlıklı 4 bitini (ilk yarısını) ayıklayan maskeleme işlemi.
 
-Dosya: bit_maskeleme.asm
-Görsel: Resim3.png
+Dosya: [bit_maskeleme.asm](./bit_maskeleme.asm)
+Görsel:[Resim3 ](./screenshots/Resim3.png)
 
 
 
@@ -44,8 +44,8 @@ Görsel: Resim3.png
 SORU 4-)Sola Kaydırma (Bit Shifting)
 Veriyi sola kaydırarak 2 ile çarpma işlemini gerçekleştiren düşük seviyeli operasyon.
 
-Dosya: bit_kaydirma.asm
-Görsel:Resim4.png
+Dosya: [bit_kaydirma.asm](./bit_kaydirma.asm)
+Görsel:[Resim4](./screenshots/Resim4.png)
 
 
 
@@ -53,8 +53,8 @@ Görsel:Resim4.png
 SORU 5-) 16-Bit Toplama ve İndis Gösterimi
 Çift byte'lık verileri elde (carry) bitini hesaba katarak toplar.
 
-Dosya: 16bit_toplama.asm
-Görsel:Resim5.png
+Dosya: [16bit_toplama.asm](./16bit_toplama.asm)
+Görsel:[Resim5](./screenshots/Resim5.png)
 
 
 
@@ -62,9 +62,9 @@ Görsel:Resim5.png
 SORU 6-) YIğıt (Stack) Analizi ve İndis Yazmacı Veri Transferi
 Bu çalışma, program akışı sırasında yığıt işaretçisinin (SP) değişimini ve bellekteki verilerin X yazmacına nasıl çekildiğini analiz eder.
 
-Dosya: stack_analizi.asm
+Dosya: [stack_analizi.asm](./stack_analizi.asm)
 Analiz Sonucu: Yapılan PSHA ve PSHB işlemleri sonrası bellekten çekilen verilerle İndis Yazmacı (X) 2344h değerini alır.
-Görsel:Resim6.png
+Görsel:[Resim6](./screenshots/Resim6.png)
 
 
 
