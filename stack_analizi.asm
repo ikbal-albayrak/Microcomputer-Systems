@@ -1,0 +1,7 @@
+LDS #$0051    ; Yığıt göstergecini (SP) 0051h adresine ayarlar [cite: 53]
+LDAA #$44     ; A akümülatörüne 44h değerini yükler [cite: 54]
+LDAB #$23     ; B akümülatörüne 23h değerini yükler [cite: 55]
+PSHA          ; A'nın değerini (44h) yığıta (0051h adresine) iter, SP 0050h olur [cite: 56]
+PSHB          ; B'nin değerini (23h) yığıta (0050h adresine) iter, SP 004Fh olur [cite: 57]
+LDX $50       ; 0050h ve 0051h adreslerindeki verileri X'e yükler [cite: 58]
+SWI           ; Yazılım kesmesi oluşturur [cite: 59]
