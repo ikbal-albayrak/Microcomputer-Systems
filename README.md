@@ -18,7 +18,7 @@ SORU1-) Döngüsel Çarpma Algoritması
 Çarpma işlemini, döngü (loop) kullanarak toplama mantığıyla gerçekleştiren program.
 
 Dosya: [carpma_toplama.asm](./carpma_toplama.asm)
-Görsel: [Soru 1](./screenshots/soru1.png)
+Görsel: [Soru 1](./screenshots/Resim1.png)
 
 
 
@@ -27,7 +27,7 @@ SORU 2-) 16-Bit Çıkarma İşlemi
 0020h ve 0030h adreslerindeki 2 byte'lık verilerin farkını hesaplar ve sonucu indis yazmacında (X) gösterir.
 
 Dosya: [16bit_cikarma.asm](./16bit_cikarma.asm)
-Görsel: [Soru 2](./screenshots/soru2.png)
+Görsel: [Soru 2](./screenshots/Resim2.png)
 
 
 
