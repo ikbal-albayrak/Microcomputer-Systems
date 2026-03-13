@@ -17,7 +17,7 @@ Laboratuvar Soruları ve Çözümleri
 SORU1-) Döngüsel Çarpma Algoritması
 Çarpma işlemini, döngü (loop) kullanarak toplama mantığıyla gerçekleştiren program.
 
-Dosya: carpma_toplama.asm
+Dosya: ./carpma_toplama.asm
 Görsel: Resim1.png
 
 
